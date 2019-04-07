@@ -1,0 +1,3 @@
+[Customer]-(View Products), [Customer]-(Compose order), (Compose Order)<(Unavailable products), (Compose Order)>(Check Availability)
+[Waiter]-(Prepare check),[Waiter]-(Process notification),(Process notification)>(Mark payment realised),(Process notification)>(Mark order delivered)
+[Administrator]-(Establish price),[Administrator]-(Add products)
